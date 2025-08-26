@@ -1,5 +1,4 @@
 
-// also known as heirachical inheritance
 class Person {   // super class / parent class
     String name;
     int age;
@@ -55,4 +54,5 @@ public class InheritanceEx1 {
         s1.read();
     }
 }
+
 
