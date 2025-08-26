@@ -1,5 +1,6 @@
-// this is also known as single inheritance
-class Person {    // super class or parent class
+// also known as single inheritance
+// also known as heirachical inheritance
+class Person {   // super class / parent class
     String name;
     int age;
     char gender;
@@ -10,7 +11,7 @@ class Person {    // super class or parent class
         System.out.println("Reading...");
     }
 }
-class Employee extends Person {   //child class
+class Employee extends Person {  // child class
     int empId;
     double salary;
     void applyALeave() {
@@ -43,9 +44,14 @@ public class InheritanceEx1 {
         e1.read();
 
         Student s1 = new Student();
+        s1.name = "Charlie";
+        s1.age = 18;
+        s1.gender = 'M';
+        s1.rollNumber = "24P31A42I4";
+        s1.branch = "AIML";
+        s1.cgpa = 8.9;
         s1.takeExam();
         s1.walk();
         s1.read();
     }
 }
-
