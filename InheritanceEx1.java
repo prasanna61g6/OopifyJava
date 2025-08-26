@@ -1,4 +1,5 @@
-class Person {
+// this is also known as single inheritance
+class Person {    // super class or parent class
     String name;
     int age;
     char gender;
@@ -9,7 +10,7 @@ class Person {
         System.out.println("Reading...");
     }
 }
-class Employee extends Person {
+class Employee extends Person {   //child class
     int empId;
     double salary;
     void applyALeave() {
@@ -47,3 +48,4 @@ public class InheritanceEx1 {
         s1.read();
     }
 }
+
